@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="440571ef-7c24-47eb-a2ab-893d63ebe774" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/FDCKafka2MysqlSparkStreaming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/config/hbase_client.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/config/param_conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/config/sap_param_conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/data/iris.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/java/com/csot/spark/common/demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/java/com/csot/spark/kudu/KuduDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/java/com/csot/spark/sql/demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/java/com/csot/spark/test/GetKafkaPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/java/com/csot/spark/test/demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/lib/spark-redis-0.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/resources/hbase-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/resources/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/resources/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/common/EQP_Param.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/common/EQP_Summary_Param.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/common/SapToHbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/DeleteHbaseData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/FDCParamDataBulkLoadToHbasae.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/HBaseUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/IoT2Hbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/MongoDBToHbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/Oracle2Hbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/QTimeToHBase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/hbase/SparkLoadHBaseData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/kafka/DynamicGetTopicPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/kafka/GetKafkaOffset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/kudu/ExportFiles.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/kudu/ImportExportFiles.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/kudu/SparkOnKudu.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/ml/classification/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/ml/feature/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/ml/regression/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/sql/MergeParquetFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/sql/TransferFileTypeToParquet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/streaming/GetParamUseSparkStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/streaming/Kafka2Spark2HBase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/streaming/Kafka2SparkStreaming2Mysql.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/streaming/LoadSparkStreamingContext.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/test/GetRedisData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/test/SparkPi.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/test/SparkRedisDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/test/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/util/ConsumerRecordRegistrator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/main/scala/com/csot/spark/util/Logger.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FDCKafka2MysqlSparkStreaming/src/test/scala/test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kafka2MysqlIntercepter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kafka2MysqlIntercepter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kafka2MysqlIntercepter/src/main/java/com/csot/flume/intercepter/Kafka2MysqlIntercepter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/MFADBMonitor/MFADBMonitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/test/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Define_Interceptor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Define_Interceptor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/src/main/java/com/csot/flume/watchservice/DefineRegexHbaseRowkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/src/main/java/com/csot/flume/watchservice/MailManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/src/main/java/com/csot/flume/watchservice/MailManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/src/main/resources/conf/flume.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/src/main/resources/conf/flume.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/src/main/resources/conf/watchservice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/target/classes/com/csot/flume/watchservice/DefineRegexHbaseRowkey$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/target/classes/com/csot/flume/watchservice/DefineRegexHbaseRowkey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/target/classes/com/csot/flume/watchservice/MailManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/target/classes/com/csot/flume/watchservice/MailManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/target/classes/com/csot/flume/watchservice/ServiceNodeUpAndDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/target/classes/com/csot/flume/watchservice/ServiceNodeUpAndDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/target/classes/conf/flume.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Watch_Service/target/classes/conf/flume.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Watch_Service/target/classes/conf/watchservice.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csot-api" beforeDir="false" afterPath="$PROJECT_DIR$/../csot-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../define_habse_rowkey/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../define_habse_rowkey/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flume_watch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flume_watch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="285151947">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="java" value="886" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="886" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flume/MysqlSink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="102" column="85" lean-forward="true" selection-start-line="102" selection-start-column="85" selection-end-line="102" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/csot/flume/MySink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/corg/apache/flume/csot/sink/MysqlSink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/csot/flume/MysqlSink.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/flume/MysqlSink.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\dev\maven\Maven_Repository" />
+        <option name="mavenHome" value="E:/dev/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\dev\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MysqlSink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MysqlSink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MysqlSink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-48" />
+    <option name="y" value="3" />
+    <option name="width" value="1614" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MysqlSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MysqlSink" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MysqlSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MysqlSink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MysqlSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MysqlSink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MysqlSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MysqlSink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MysqlSink" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MysqlSink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="flume" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559195656726" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="440571ef-7c24-47eb-a2ab-893d63ebe774" name="Default Changelist" comment="" />
+      <created>1557908781758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557908781758</updated>
+      <workItem from="1557908791728" duration="46443000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46443000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="-5" width="1530" height="910" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22770919" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5561644" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" weight="0.3319616" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24965706" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flume/MysqlSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="102" column="85" lean-forward="true" selection-start-line="102" selection-start-column="85" selection-end-line="102" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
